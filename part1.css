@@ -39,7 +39,6 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-weight: bold;
 
 }
 
@@ -72,10 +71,12 @@
 
 @media (max-width:  970px) { 
     .produto__parte__inicial {
+        height: 120%;
         font-size: 3rem;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+        margin-bottom: 3rem;
         
     }
     .produto__parte__inicial__texto__p{

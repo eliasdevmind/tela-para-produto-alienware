@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-content: center;
   align-items: center;
   background: rgb(118, 185, 0);
   background: -moz-linear-gradient(321deg, rgba(118, 185, 0, 0.9) 5%, rgba(255, 255, 255, 1) 65%);
@@ -18,7 +19,7 @@
 
 .produto__parte__secundaria__texto h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -29,7 +30,7 @@
 
 .produto__parte__secundaria__texto h3 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -58,13 +59,18 @@
 }
 
 
-@media (max-width: 600px) {
-  .produto__parte__secundaria {
-    height: 100%;
-  }
+@media (max-width: 970px) {
+ 
+.produto__parte__secundaria{
+  height: 160%;
+  gap: 1rem;
+}
 
+.produto__parte__secundaria__texto{
+  gap: 1rem;
+}
   .img__placa__de__video {
-    width: 100%;
+    width: 70%;
   }
 
   .produto__parte__secundaria__texto h2 {
@@ -76,7 +82,9 @@
   }
 
   .produto__parte__secundaria__texto p {
-    max-width: 360px;
+    max-width: 22.5rem;
     font-size: 1rem;
   }
 }
+
+
