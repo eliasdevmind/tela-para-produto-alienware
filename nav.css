@@ -1,0 +1,12 @@
+.navegacao__links ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navegacao__links__li{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    
+}

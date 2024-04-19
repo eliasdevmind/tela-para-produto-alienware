@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+   
 
 }
 
@@ -71,7 +72,7 @@
 
 @media (max-width:  970px) { 
     .produto__parte__inicial {
-        height: 120%;
+        height: 100%;
         font-size: 3rem;
         display: flex;
         flex-wrap: wrap;

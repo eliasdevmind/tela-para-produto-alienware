@@ -62,7 +62,7 @@
 @media (max-width: 970px) {
  
 .produto__parte__secundaria{
-  height: 160%;
+  height: 100%;
   gap: 1rem;
 }
 
