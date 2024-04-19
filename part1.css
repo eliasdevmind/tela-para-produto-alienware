@@ -72,12 +72,14 @@
 
 @media (max-width:  970px) { 
     .produto__parte__inicial {
+        font-size: 3rem;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         
     }
     .produto__parte__inicial__texto__p{
+        font-size: 1rem;
         padding: 10px;
         max-width: 600px;
     }
