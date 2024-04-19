@@ -5,6 +5,11 @@
 
 }
 
+.paginas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .produto__parte__inicial {
     height: 100vh;
@@ -61,5 +66,23 @@
 
 
 .img__produto {
-    width: 45%;
+    width: 50%;
+}
+
+@media (max-width:  600px) { 
+    .produto__parte__inicial {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        
+    }
+    .produto__parte__inicial__texto__p{
+        padding: 10px;
+    }
+
+    .img__produto {
+        width: 70%;
+        
+    }
 }
