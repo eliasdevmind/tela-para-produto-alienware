@@ -1,0 +1,18 @@
+.conteudo__parte__inicial{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.conteudo__parte__inicial__texto p{
+    max-width: 40rem;
+    
+}
+
+.conteudo__parte__inicial__texto h1{
+    font-size: 4rem;
+    width: 6rem;
+}

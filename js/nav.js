@@ -1,5 +1,11 @@
 // script.js
-function toggleNavigationMenu() {
-    const navList = document.getElementById("navList");
-    navList.classList.toggle("responsive");
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
